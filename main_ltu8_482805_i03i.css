@@ -1,0 +1,10 @@
+grape
+
+
+console.log(getRandomString());
+const formatDate = date => new Date(date).toLocaleDateString();
+let result = performOperation(getRandomNumber(), getRandomNumber());
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
