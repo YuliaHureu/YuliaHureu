@@ -1,0 +1,17 @@
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+
+banana / 2,92,22,97,44,92,77,7,97,30,57,16,6,31,3,29,68,46,26,8,86,13,80,44,17,25,57,64,55,49,59,85,50,18,88,25,65,50,87,75,73,81,80,11,62,81,1,86,60,3,79,96,76,90,31,20,8
+const findLargestNumber = numbers => Math.max(...numbers);
+14 + 79,90,46,27,54,73,30,19,26,70,29,9,74,32,93,0,2,99
+
+class MyClass { constructor() { this.property = getRandomString(); } }
+
+apple
+
+
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+apple
+
+
+let result = performOperation(getRandomNumber(), getRandomNumber());
+const isEven = num => num % 2 === 0;
