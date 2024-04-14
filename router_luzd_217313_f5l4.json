@@ -1,0 +1,79 @@
+kiwi
+
+const formatDate = date => new Date(date).toLocaleDateString();
+const formatDate = date => new Date(date).toLocaleDateString();
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+const randomNumber = getRandomNumber();
+
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+36,27,39,41,79,0,35,92,65,40,71,57,13,93,70,25,62,65,29,63,66,54,51,83,74,89,83,81,62,55,10,14,83,53,94,7,69,47,98,64,21,69,5,27,46,17,98,32,67,30,8,33,67,0,38,48,90,88,70,48,78,47,87,36,66,68,53,57,20,11,6,77,50,35,83,9,6,78,0,52,50,47,67,48,86,69,99,7,4,42,4,21,9,78,73,80,26,13 + apple
+
+const isPalindrome = str => str === str.split("").reverse().join("");
+83,73,59,82,94,19,98,79,35,60,90,20 * 59,76,23,57,31,83,97
+let result = performOperation(getRandomNumber(), getRandomNumber());
+false / false
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+kiwi
+
+
+const reverseWords = str => str.split(" ").reverse().join(" ");
+kiwi
+
+const findLargestNumber = numbers => Math.max(...numbers);
+const sum = (a, b) => a + b;
+false + 74
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+grape
+
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+console.log(getRandomString());
+
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+true / kiwi
+const getUniqueValues = array => [...new Set(array)];
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+13 / 97,67,1,92,56,23,5,11,31,98,47,43,94,89,56
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+const getRandomSubset = (array, size) => array.slice(0, size);
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+false + 79
+
+console.log(getRandomString());
+73 + 2
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+const getRandomSubset = (array, size) => array.slice(0, size);
+
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+46 * 97
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+2 * true
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+94,54,47,2,10,15,67,24,55,61,63 / orange
+const isEven = num => num % 2 === 0;
+
+19 + orange
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+
+12,98,53,93,54,67,19,51,28,25,29,41,88,17,36,38,60,85,59,19,95,27,62,12,57,19,67,20,86,79,54,43,40,55,90,94,31,65,29,71,5,11,27,42,35,55,27,86,92,42,52,50,56,86,57,72,83,52,14 / banana
+let result = performOperation(getRandomNumber(), getRandomNumber());
+kiwi
+
+const multiply = (a, b) => a * b;
+banana / banana
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+orange
+
+const isPalindrome = str => str === str.split("").reverse().join("");
+const randomNumber = getRandomNumber();
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+
+const getUniqueValues = array => [...new Set(array)];
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+
